@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://scorpionsrk7.github.io/public/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

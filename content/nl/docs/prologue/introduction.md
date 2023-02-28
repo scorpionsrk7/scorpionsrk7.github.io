@@ -7,7 +7,7 @@ lastmod: 2020-10-06T08:48:57+00:00
 draft: false
 images: []
 menu:
-  docs:
+  tutorials:
     parent: "prologue"
 weight: 100
 toc: true
@@ -35,15 +35,15 @@ Recipes, Reference Guides, Extensions, and Showcase.
 
 ### Recipes
 
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
+Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/tutorials/recipes/project-configuration/)
 
 ### Reference Guides
 
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
+Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/tutorials/reference-guides/security/)
 
 ### Extensions
 
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
+Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/tutorials/extensions/breadcrumb-navigation/)
 
 ### Showcase
 
@@ -51,7 +51,7 @@ See what others have build with Doks. [Showcase →](https://getdoks.org/showcas
 
 ## Contributing
 
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
+Find out how to contribute to Doks. [Contributing →](https://getdoks.org/tutorials/contributing/how-to-contribute/)
 
 ## Help
 

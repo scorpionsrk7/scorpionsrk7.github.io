@@ -1,4 +1,4 @@
-// Adds scroll position lock for default docs sidebar
+// Adds scroll position lock for default tutorials sidebar
 
 if (document.querySelector('#sidebar-default') !== null) {
   let sidebar = document.getElementById('sidebar-default');

@@ -2,7 +2,7 @@
 .blog .content,
 .page .content,
 .error404 .content,
-.docs.list .content,
+.tutorials.list .content,
 .tutorial.list .content,
 .showcase.list .content,
 .categories.list .content,
@@ -40,7 +40,7 @@ h5.offcanvas-title {
   margin: 0;
 }
 
-body.docs {
+body.tutorials {
   padding-top: 0 !important;
 }
 
@@ -114,18 +114,18 @@ body {
 }
 */
 
-.docs-sidebar {
+.tutorials-sidebar {
   order: 2;
 }
 
 @include media-breakpoint-up(lg) {
-  .docs-sidebar {
+  .tutorials-sidebar {
     order: 0;
     border-right: 1px solid $gray-200;
   }
 
   @supports ((position:-webkit-sticky) or (position:sticky)) {
-    .docs-sidebar {
+    .tutorials-sidebar {
       position: -webkit-sticky;
       position: sticky;
       top: 4rem;
@@ -133,25 +133,25 @@ body {
       height: calc(100vh - 4rem);
     }
 
-    .docs-sidebar-top {
+    .tutorials-sidebar-top {
       top: 0;
     }
   }
 }
 
 @include media-breakpoint-up(xl) {
-  .docs-sidebar {
+  .tutorials-sidebar {
     flex: 0 1 320px;
   }
 }
 
-.docs-links {
+.tutorials-links {
   padding-bottom: 5rem;
 }
 
 @include media-breakpoint-up(lg) {
   @supports ((position: -webkit-sticky) or (position: sticky)) {
-    .docs-links {
+    .tutorials-links {
       max-height: calc(100vh - 4rem);
       overflow-y: scroll;
     }
@@ -159,7 +159,7 @@ body {
 }
 
 @include media-breakpoint-up(lg) {
-  .docs-links {
+  .tutorials-links {
     display: block;
     width: auto;
     margin-right: -1.5rem;
@@ -167,12 +167,12 @@ body {
   }
 }
 
-.docs-toc {
+.tutorials-toc {
   order: 2;
 }
 
 @supports ((position:-webkit-sticky) or (position:sticky)) {
-  .docs-toc {
+  .tutorials-toc {
     position: -webkit-sticky;
     position: sticky;
     top: 4rem;
@@ -180,33 +180,33 @@ body {
     overflow-y: auto;
   }
 
-  .docs-toc-top {
+  .tutorials-toc-top {
     top: 0;
   }
 }
 
-.docs-content {
+.tutorials-content {
   padding-bottom: 3rem;
   order: 1;
 }
 
-.docs-navigation {
+.tutorials-navigation {
   border-top: 1px solid $gray-200;
   margin-top: 2rem;
   margin-bottom: 0;
   padding-top: 2rem;
 }
 
-.docs-navigation a {
+.tutorials-navigation a {
   font-size: $font-size-base * 0.9;
 }
 
 @include media-breakpoint-up(lg) {
-  .docs-navigation {
+  .tutorials-navigation {
     margin-bottom: -1rem;
   }
 
-  .docs-navigation a {
+  .tutorials-navigation a {
     font-size: $font-size-base;
   }
 }

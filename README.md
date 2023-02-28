@@ -78,7 +78,7 @@ Nine main reasons why you should use Doks:
 <details>
 <summary>Why Node.js?</summary>
 
-Doks uses npm (included with Node.js) to centralize dependency management, making it [easy to update](https://getdoks.org/docs/help/how-to-update/) resources, build tooling, plugins, and build scripts.
+Doks uses npm (included with Node.js) to centralize dependency management, making it [easy to update](https://getdoks.org/Tutorials/help/how-to-update/) resources, build tooling, plugins, and build scripts.
 
 </details>
 
@@ -94,7 +94,7 @@ Doks is available as a child theme and a starter theme.
 
 - Intended for novice to intermediate users
 - Intended for minor customizations
-- [Easily update npm packages](https://getdoks.org/docs/help/how-to-update/) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
+- [Easily update npm packages](https://getdoks.org/Tutorials/help/how-to-update/) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
 
 ```bash
 git clone https://github.com/h-enk/doks-child-theme.git my-doks-site && cd my-doks-site
@@ -104,7 +104,7 @@ git clone https://github.com/h-enk/doks-child-theme.git my-doks-site && cd my-do
 
 - Intended for intermediate to advanced users
 - Intended for major customizations
-- [Easily update npm packages](https://getdoks.org/docs/help/how-to-update/)
+- [Easily update npm packages](https://getdoks.org/Tutorials/help/how-to-update/)
 
 ```bash
 git clone https://github.com/h-enk/doks.git my-doks-site && cd my-doks-site
@@ -131,11 +131,11 @@ npm run start
 
 ## Other commands
 
-Doks comes with [commands](https://getdoks.org/docs/prologue/commands/) for common tasks.
+Doks comes with [commands](https://getdoks.org/Tutorials/prologue/commands/) for common tasks.
 
 ## Documentation
 
-- [Netlify](https://docs.netlify.com/)
+- [Netlify](https://Tutorials.netlify.com/)
 - [Hugo](https://gohugo.io/documentation/)
 - [Doks](https://getdoks.org/)
 

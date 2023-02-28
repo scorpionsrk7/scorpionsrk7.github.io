@@ -4,7 +4,7 @@
     <p class="lead">{{ .Params.lead | safeHTML }}</p>
     {{ .Content }}
     <div class="row">
-      {{ range $release := sort (index $.Site.Data "docs-versions") "group" "desc" -}}
+      {{ range $release := sort (index $.Site.Data "tutorials-versions") "group" "desc" -}}
       <div class="col-md-8 col-lg-4 col-xl mb-4">
         <h2>{{ $release.group }}</h2>
         <p>{{ $release.description }}</p>

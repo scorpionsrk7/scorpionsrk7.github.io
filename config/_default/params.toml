@@ -79,12 +79,11 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
-#repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
-docsRepoBranch = "master"
+docsRepo = "https://github.com/scorpionsrk7/scorpionsrk7.github.io"
+docsRepoBranch = "main"
 docsRepoSubPath = ""
-editPage = false
-lastMod = false
+editPage = true
+lastMod = true
 
 [sections]
   sectionNav = ["tutorials", "guides"]
@@ -98,17 +97,17 @@ lastMod = false
   searchSectionsIndex = []
   darkMode = true
   bootStrapJs = true
-  breadCrumb = false
+  breadCrumb = true
   highLight = true
   kaTex = false
   multilingualMode = false
   docsVersioning = false
-  fullWidth = false
+  fullWidth = true
   navbarSticky = true
-  toTopButton = false
+  toTopButton = true
   scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
 
 [menu]
   [menu.section]
-    auto = true
+    auto = false
     collapsibleSidebar = true

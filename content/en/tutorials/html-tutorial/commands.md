@@ -71,14 +71,6 @@ Check markdown for errors:
 npm run lint:markdown [-- --fix]
 ```
 
-{{< details "<span class=\"fw-bold\">Custom HTML styled summary</span>" >}}
-Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize.
-{{< /details >}}
-
-{{< alert icon="👉" text="Make sure to always self-close the alert shortcode." />}}
-
-{{< alert icon="👉" context="info" text="A simple info alert — check it out!" />}}
-
 ## clean
 
 Delete temporary directories:

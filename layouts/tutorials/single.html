@@ -1,6 +1,6 @@
 {{ define "main" }}
 	<div class="row flex-xl-nowrap">
-		<div class="col-lg-5 col-xl-4 tutorials-sidebar{{ if ne .Site.Params.options.navbarSticky true }} tutorials-sidebar-top{{ end }} d-none d-lg-block">
+		<div class="col-lg-4 col-xl-3 tutorials-sidebar{{ if ne .Site.Params.options.navbarSticky true }} tutorials-sidebar-top{{ end }} d-none d-lg-block">
 			<nav {{ if eq .Site.Params.menu.section.collapsibleSidebar false }}id="sidebar-default" {{ end }}class="tutorials-links" aria-label="Main navigation">
 				{{ partial "sidebar/tutorials-menu.html" . }}
 			</nav>
@@ -11,9 +11,9 @@
 		</nav>
 		{{ end -}}
 		{{ if .Params.toc -}}
-		<main class="tutorials-content col-lg-11 col-xl{{ if eq .Site.Params.options.fullWidth false }}-9{{ end }}">
+		<main class="tutorials-content col-lg-12 col-xl{{ if eq .Site.Params.options.fullWidth false }}-9{{ end }}">
 		{{ else -}}
-		<main class="tutorials-content col-lg-11 col-xl-9 mx-xl-auto">
+		<main class="tutorials-content col-lg-12 col-xl-10 mx-xl-auto">
 		{{ end -}}
 			{{ if .Site.Params.options.breadCrumb -}}
 				<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->

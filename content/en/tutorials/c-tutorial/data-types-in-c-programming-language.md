@@ -18,7 +18,7 @@ mermaid: true
 
 
 ## What are Data Types?
-Data types are a way to classify different types of data that a program can handle. In C programming, data types determine the amount of memory space that a variable takes up and the range of values that it can store. C programming language supports several data types, including:
+Data types are a way to classify different types of data that a program can handle. In C programming, data types determine the amount of memory space that a variable takes up and the range of values that it can stores. C programming language supports several data types, including:
 
 1. Basic Data Types
 2. Derived Data Types

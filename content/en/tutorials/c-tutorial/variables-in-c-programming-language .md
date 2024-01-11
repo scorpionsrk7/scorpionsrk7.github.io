@@ -110,6 +110,6 @@ int main()
 In this code, x is a global variable, and y is a local variable. The my_function() function can access both x and y, while the main() function can only access x.
 
 
-## Conclusion
+## Conclusions
 Variables are an essential concept in C programming language, and they allow you to store and manipulate values of different data types in your programs. By declaring, initializing, and using variables correctly, you can create powerful and efficient programs that can solve a wide range of problems.
 

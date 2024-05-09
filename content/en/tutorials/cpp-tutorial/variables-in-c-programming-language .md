@@ -1,5 +1,5 @@
 ---
-title : "C Variables"
+title : "CPP Variables"
 description: C programming language is a popular choice for developing efficient and high-performance software applications. One of the fundamental concepts in C programming is the use of variables, which are essentially named memory locations that store values of different data types. In this blog article, we will explore the basics of variables in C programming language."
 lead: "C programming language is a popular choice for developing efficient and high-performance software applications. One of the fundamental concepts in C programming is the use of variables, which are essentially named memory locations that store values of different data types. In this blog article, we will explore the basics of variables in C programming language."
 date: 2020-10-06T08:48:45+00:00

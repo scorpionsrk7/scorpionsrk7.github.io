@@ -1,5 +1,5 @@
 ---
-title : "C Operators and Expressions"
+title : "CPP Operators and Expressions"
 description: "Operator and expression in c programming language"
 lead: "Operators and expressions are a fundamental part of any programming language, including C programming language. In this article, we will provide an overview of operators and expressions in C programming language with examples."
 date: 2020-10-06T08:48:45+00:00

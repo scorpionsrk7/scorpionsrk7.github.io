@@ -1,5 +1,5 @@
 ---
-title: "C Data Types"
+title: "CPP Data Types"
 description: "Data types and variables are essential concepts in programming languages, and C programming language is no exception. In this article, we will discuss data types and variables in C programming language with examples.
 "
 lead: "Data types and variables are essential concepts in programming languages, and C programming language is no exception. In this article, we will discuss data types and variables in C programming language with examples.

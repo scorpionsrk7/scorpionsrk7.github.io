@@ -5,7 +5,6 @@
     <link>https://scorpionsrk7.github.io/public/tutorials/help/</link>
     <description>Recent content in Help on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <lastBuildDate>Tue, 06 Oct 2020 08:49:15 +0000</lastBuildDate><atom:link href="https://scorpionsrk7.github.io/public/tutorials/help/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Update</title>
@@ -13,7 +12,7 @@
       <pubDate>Thu, 12 Nov 2020 13:26:54 +0100</pubDate>
       
       <guid>https://scorpionsrk7.github.io/public/tutorials/help/how-to-update/</guid>
-      <description> 💡 Learn more about semantic versioning and advanced range syntax. Check for outdated packages # The npm outdated command will check the registry to see if any (or, specific) installed packages are currently outdated:
+      <description>💡  Learn more about semantic versioning and advanced range syntax.   Check for outdated packages # The npm outdated command will check the registry to see if any (or, specific) installed packages are currently outdated:
 npm outdated [[&amp;lt;@scope&amp;gt;/]&amp;lt;pkg&amp;gt; ...] Update packages # The npm update command will update all the packages listed to the latest version (specified by the tag config), respecting semver:
 npm update [&amp;lt;pkg&amp;gt;...] </description>
     </item>
@@ -37,9 +36,8 @@ npm run clean </description>
       <guid>https://scorpionsrk7.github.io/public/tutorials/help/faq/</guid>
       <description>Hyas? # Doks is a Hyas theme build by the creator of Hyas.
 Footer notice? # Please keep it in place.
-Keyboard shortcuts for search? # focus: Ctrl + / select: ↓ and ↑ open: Enter close: Esc Other documentation? # Netlify Hugo Can I get support? # Create a topic:
-Netlify Community Hugo Forums Doks Discussions Contact the creator? # Send h-enk a message:
-Netlify Community Hugo Forums Doks Discussions </description>
+Keyboard shortcuts for search? #  focus: Ctrl + / select: ↓ and ↑ open: Enter close: Esc  Other documentation? #  Netlify Hugo  Can I get support? # Create a topic:
+ Netlify Community Hugo Forums Doks Discussions  Contact the creator? # Send h-enk a message:</description>
     </item>
     
   </channel>

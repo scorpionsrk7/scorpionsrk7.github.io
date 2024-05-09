@@ -9,14 +9,14 @@
     </url>
     
     <url>
-      <loc>https://scorpionsrk7.github.io/public/tutorials/html-tutorial/</loc>
+      <loc>https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/</loc>
       <lastmod>2020-10-06T08:48:45+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>https://scorpionsrk7.github.io/public/tutorials/prologue/</loc>
+      <loc>https://scorpionsrk7.github.io/public/tutorials/html-tutorial/</loc>
       <lastmod>2020-10-06T08:48:45+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
@@ -59,6 +59,36 @@
         <priority>0.5</priority>
       </url>
       <url>
+        <loc>https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/introduction-of-cpp/</loc>
+        <lastmod>2020-10-06T08:48:45+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/variables-in-c-programming-language-/</loc>
+        <lastmod>2020-10-06T08:48:45+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/</loc>
+        <lastmod>2020-10-06T08:48:57+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/control-statements-and-loops/</loc>
+        <lastmod>2020-10-06T08:48:45+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/operator-and-expression-in-c-programming/</loc>
+        <lastmod>2020-10-06T08:48:45+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+      </url>
+      <url>
         <loc>https://scorpionsrk7.github.io/public/tutorials/html-tutorial/introduction/</loc>
         <lastmod>2020-10-06T08:48:57+00:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -72,24 +102,6 @@
       </url>
       <url>
         <loc>https://scorpionsrk7.github.io/public/tutorials/html-tutorial/commands/</loc>
-        <lastmod>2020-10-13T15:21:01+02:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-      </url>
-      <url>
-        <loc>https://scorpionsrk7.github.io/public/tutorials/prologue/introduction/</loc>
-        <lastmod>2020-10-06T08:48:57+00:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-      </url>
-      <url>
-        <loc>https://scorpionsrk7.github.io/public/tutorials/prologue/quick-start/</loc>
-        <lastmod>2020-11-16T13:59:39+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-      </url>
-      <url>
-        <loc>https://scorpionsrk7.github.io/public/tutorials/prologue/commands/</loc>
         <lastmod>2020-10-13T15:21:01+02:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>

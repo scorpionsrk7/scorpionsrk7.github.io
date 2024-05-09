@@ -5,7 +5,6 @@
     <link>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/</link>
     <description>Recent content in C Tutorial on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C Programming Introduction</title>
@@ -34,8 +33,8 @@ data_type variable_name; Here, data_type specifies the type of the variable, suc
       <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
       
       <guid>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/data-types-in-c-programming-language/</guid>
-      <description>What are Data Types? # Data types are a way to classify different types of data that a program can handle. In C programming, data types determine the amount of memory space that a variable takes up and the range of values that it can store. C programming language supports several data types, including:
-Basic Data Types Derived Data Types Enumeration Data Types Basic Data Types # The basic data types are the most commonly used data types in C programming language.</description>
+      <description>What are Data Types? # Data types are a way to classify different types of data that a program can handle. In C programming, data types determine the amount of memory space that a variable takes up and the range of values that it can stores. C programming language supports several data types, including:
+ Basic Data Types Derived Data Types Enumeration Data Types  Basic Data Types # The basic data types are the most commonly used data types in C programming language.</description>
     </item>
     
     <item>
@@ -45,7 +44,7 @@ Basic Data Types Derived Data Types Enumeration Data Types Basic Data Types # Th
       
       <guid>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/control-statements-and-loops/</guid>
       <description>Get started # There are three main control structures in C programming:
-Selection statements (if-else statements) Iteration statements (for loops, while loops, do-while loops) Jump statements (break, continue, goto) Selection statements (if-else statements) # Selection statements allow a program to choose between two or more paths of execution based on the value of a condition. The basic syntax of an if-else statement is as follows:
+ Selection statements (if-else statements) Iteration statements (for loops, while loops, do-while loops) Jump statements (break, continue, goto)  Selection statements (if-else statements) # Selection statements allow a program to choose between two or more paths of execution based on the value of a condition. The basic syntax of an if-else statement is as follows:
 if statement # This statement is used to check a condition, if the condition is true, perforn the operatioon otherwise move to next part of code.</description>
     </item>
     

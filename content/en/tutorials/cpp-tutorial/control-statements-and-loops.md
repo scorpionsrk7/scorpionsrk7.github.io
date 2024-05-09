@@ -1,5 +1,5 @@
 ---
-title : "C Control Structure and Loops"
+title : "CPP Control Structure and Loops"
 description: "Control statements and loops in c programming language"
 lead: "Control statements and loops are essential programming constructs used to control the flow of execution of a program in C. They are used to make decisions, repeat statements, and perform conditional operations."
 date: 2020-10-06T08:48:45+00:00

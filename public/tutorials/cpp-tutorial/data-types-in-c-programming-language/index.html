@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preload" as="font" href="https://scorpionsrk7.github.io/public/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://scorpionsrk7.github.io/public/fonts/vendor/jost/jost-v4-latin-500.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://scorpionsrk7.github.io/public/fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
+
+  <script>(()=>{var b=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,a=localStorage.getItem("theme");b&&a===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),b&&a==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),a==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
+
+  <link rel="stylesheet" href="https://scorpionsrk7.github.io/public/main.688e052a893cc561155f1791c91117c087c21f0292ea2b46f38b67cea5140fbc6b979733b29086c9c5980e83a9b30321f86e4cacd5998a94161d8c1ac6de47fe.css" integrity="sha512-aI4FKok8xWEVXxeRyREXwIfCHwKS6itG84tnzqUUD7xrl5czspCGycWYDoOpswMh&#43;G5MrNWZipQWHYwaxt5H/g==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+<style>
+body {
+}
+</style>
+
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>CPP Data Types - Tutorials</title>
+<meta name="description" content="Data types and variables are essential concepts in programming languages, and C programming language is no exception. In this article, we will discuss data types and variables in C programming language with examples. ">
+<link rel="canonical" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CPP Data Types">
+<meta property="og:description" content="Data types and variables are essential concepts in programming languages, and C programming language is no exception. In this article, we will discuss data types and variables in C programming language with examples. ">
+<meta property="og:url" content="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/">
+<meta property="og:site_name" content="Tutorials">
+<meta property="article:published_time" content="2020-10-06T08:48:57+00:00">
+  <meta property="article:modified_time" content="2020-10-06T08:48:57+00:00">
+  
+  <meta property="og:image" content="https://scorpionsrk7.github.io/public/doks.png"/>
+      <meta property="og:image:alt" content="Tutorials">
+    
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@getdoks">
+<meta name="twitter:creator" content="@henkverlinde">
+<meta name="twitter:title" content="CPP Data Types">
+<meta name="twitter:description" content="Data types and variables are essential concepts in programming languages, and C programming language is no exception. In this article, we will discuss data types and variables in C programming language with examples. ">
+<meta name="twitter:image" content="https://scorpionsrk7.github.io/public/doks.png">
+    <meta name="twitter:image:alt" content="CPP Data Types">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://scorpionsrk7.github.io/#/schema/organization/1",
+      "name": "Doks",
+      "url": "https://scorpionsrk7.github.io/",
+      "sameAs": [
+        "https://twitter.com/getdoks"
+        , "https://github.com/h-enk/doks"
+        ],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://scorpionsrk7.github.io/#/schema/image/1",
+          "url": "https://scorpionsrk7.github.io/logo-doks.png",
+          "width":  512 ,
+          "height":  512 ,
+          "caption": "Doks"
+        },
+        "image": {
+          "@id": "https://scorpionsrk7.github.io/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://scorpionsrk7.github.io/#/schema/website/1",
+      "url": "https://scorpionsrk7.github.io/",
+      "name": "Tutorials",
+      "description": "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize.",
+      "publisher": {
+          "@id": "https://scorpionsrk7.github.io/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/",
+      "url": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/",
+      "name": "CPP Data Types",
+      "description": "Data types and variables are essential concepts in programming languages, and C programming language is no exception. In this article, we will discuss data types and variables in C programming language with examples. ",
+      "isPartOf": {
+        "@id": "https://scorpionsrk7.github.io/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://scorpionsrk7.github.io/#/schema/organization/1"
+        },
+      "datePublished": "2020-10-06T08:48:57CET",
+      "dateModified": "2020-10-06T08:48:57CET",
+      "breadcrumb": {
+        "@id": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://scorpionsrk7.github.io/public/",
+          "url": "https://scorpionsrk7.github.io/public/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://scorpionsrk7.github.io/public/tutorials/",
+          "url": "https://scorpionsrk7.github.io/public/tutorials/",
+          "name": "Tutorials"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/",
+          "url": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/",
+          "name": "Cpp Tutorial"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  4 ,
+        "item": {
+          "@id": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://scorpionsrk7.github.io/#/schema/article/1",
+          "headline": "CPP Data Types",
+          "description": "Data types and variables are essential concepts in programming languages, and C programming language is no exception. In this article, we will discuss data types and variables in C programming language with examples. ",
+          "isPartOf": {
+            "@id": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/"
+          },
+          "mainEntityOfPage": {
+            "@id": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/"
+          },
+          "datePublished": "2020-10-06T08:48:57CET",
+          "dateModified": "2020-10-06T08:48:57CET",
+          "author": {
+            "@id": "https://scorpionsrk7.github.io/#/schema/person/2"
+          },
+          "publisher": {
+              "@id": "https://scorpionsrk7.github.io/#/schema/organization/1"
+            },
+          "image": {
+            "@id": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/#/schema/image/2"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://scorpionsrk7.github.io/#/schema/person/2",
+          "name": "Henk Verlinde",
+          "sameAs": [
+            "https://twitter.com/henkverlinde"
+            , "https://www.linkedin.com/in/henkverlinde/"
+            , "https://github.com/h-enk"
+            ]
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/#/schema/image/2",
+          "url": "https://scorpionsrk7.github.io/public/doks.png",
+          "contentUrl": "https://scorpionsrk7.github.io/public/doks.png",
+          "caption": "CPP Data Types"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+
+  <meta name="theme-color" content="#fff">
+<link rel="icon" href="https://scorpionsrk7.github.io/public/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="https://scorpionsrk7.github.io/public/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="https://scorpionsrk7.github.io/public/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://scorpionsrk7.github.io/public/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://scorpionsrk7.github.io/public/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="https://scorpionsrk7.github.io/public/site.webmanifest">
+
+  
+
+</head>
+
+  <body class="tutorials single">
+    <div class="sticky-top">
+<div class="header-bar"></div>
+
+<header class="navbar navbar-expand-lg navbar-light doks-navbar">
+  <nav class="container-fluid flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+
+    <a class="navbar-brand order-0" href="/public/public" aria-label="Tutorials">
+      Tutorials
+    </a>
+
+    <button class="btn btn-link order-0 ms-auto d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+    </button>
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="header-bar"></div>
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Browse tutorials</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <aside class="doks-sidebar mt-n3">
+          <nav id="doks-tutorials-nav" aria-label="Tertiary navigation">
+            
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-0634984bc3d5c45694c3de6d8a009051" aria-expanded="false">
+          C Tutorial
+        </button>
+        <div class="collapse" id="section-0634984bc3d5c45694c3de6d8a009051">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/introduction-of-c-programming/">C Programming Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/variables-in-c-programming-language-/">C Variables</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/data-types-in-c-programming-language/">C Data Types</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/control-statements-and-loops/">C Control Structure and Loops</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/operator-and-expression-in-c-programming/">C Operators and Expressions</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e5084ee7ead9cf884415c5d9501f7f19" aria-expanded="true">
+          CPP Tutorial
+        </button>
+        <div class="collapse show" id="section-e5084ee7ead9cf884415c5d9501f7f19">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/introduction-of-cpp/">CPP Programming Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/variables-in-c-programming-language-/">CPP Variables</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded active" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/">CPP Data Types</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/control-statements-and-loops/">CPP Control Structure and Loops</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/operator-and-expression-in-c-programming/">CPP Operators and Expressions</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-4c4ad5fca2e7a3f74dbb1ced00381aa4" aria-expanded="false">
+          HTML
+        </button>
+        <div class="collapse" id="section-4c4ad5fca2e7a3f74dbb1ced00381aa4">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/html-tutorial/introduction/">Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/html-tutorial/quick-start/">Quick Start</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/html-tutorial/commands/">Commands</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-6a26f548831e6a8c26bfbbd9f6ec61e0" aria-expanded="false">
+          Help
+        </button>
+        <div class="collapse" id="section-6a26f548831e6a8c26bfbbd9f6ec61e0">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/help/how-to-update/">How to Update</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/help/troubleshooting/">Troubleshooting</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/help/faq/">FAQ</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+
+          </nav>
+        </aside>
+      </div>
+    </div>
+    <button class="btn btn-menu order-2 d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+    <div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-lg-none"></div>
+      <div class="offcanvas-header d-lg-none">
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="/public/">Tutorials</a></h2>
+        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+      </div>
+      <div class="offcanvas-body p-4 p-lg-0">
+        <ul class="nav flex-column flex-lg-row align-items-lg-center mt-2 mt-lg-0 ms-lg-2 me-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link ps-0 py-1" href="/public/public/blog/">Blog</a>
+              </li>
+            
+          
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  tutorials
+                  <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                      <a class="dropdown-item" href="/public/public/tutorials/c-tutorial/introduction-of-c-programming/">C Tutorial</a>
+                    </li>
+                  <li>
+                      <a class="dropdown-item" href="/public/public/tutorials/cpp-tutorial/introduction-of-cpp/">C&#43;&#43; Tutorial</a>
+                    </li>
+                  </ul>
+              </li>
+            
+          </ul>
+
+        <hr class="text-black-50 my-4 d-lg-none">
+        <form class="doks-search position-relative flex-grow-1 ms-lg-auto me-lg-2">
+          <input id="search" class="form-control is-search" type="search" placeholder="Search tutorials..." aria-label="Search tutorials..." autocomplete="off">
+          <div id="suggestions" class="shadow bg-white rounded d-none"></div>
+        </form>
+        <hr class="text-black-50 my-4 d-lg-none">
+        <ul class="nav flex-column flex-lg-row">
+          <li class="nav-item">
+              <a class="nav-link social-link" href="/public/public/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><small class="ms-2 d-lg-none">GitHub</small></a>
+            </li>
+          <li class="nav-item">
+              <a class="nav-link social-link" href="/public/public/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><small class="ms-2 d-lg-none">Twitter</small></a>
+            </li>
+          </ul>
+
+        <hr class="text-black-50 my-4 d-lg-none">
+        <button id="mode" class="btn btn-link" type="button" aria-label="Toggle user interface mode">
+          <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+          <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+        </button>
+        </div>
+    </div>
+  </nav>
+</header>
+
+
+</div>
+<div class="container-fluid">
+  <aside class="doks-sidebar">
+    <nav id="doks-tutorials-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
+      
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-0634984bc3d5c45694c3de6d8a009051" aria-expanded="false">
+          C Tutorial
+        </button>
+        <div class="collapse" id="section-0634984bc3d5c45694c3de6d8a009051">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/introduction-of-c-programming/">C Programming Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/variables-in-c-programming-language-/">C Variables</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/data-types-in-c-programming-language/">C Data Types</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/control-statements-and-loops/">C Control Structure and Loops</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/operator-and-expression-in-c-programming/">C Operators and Expressions</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e5084ee7ead9cf884415c5d9501f7f19" aria-expanded="true">
+          CPP Tutorial
+        </button>
+        <div class="collapse show" id="section-e5084ee7ead9cf884415c5d9501f7f19">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/introduction-of-cpp/">CPP Programming Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/variables-in-c-programming-language-/">CPP Variables</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded active" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/">CPP Data Types</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/control-statements-and-loops/">CPP Control Structure and Loops</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/operator-and-expression-in-c-programming/">CPP Operators and Expressions</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-4c4ad5fca2e7a3f74dbb1ced00381aa4" aria-expanded="false">
+          HTML
+        </button>
+        <div class="collapse" id="section-4c4ad5fca2e7a3f74dbb1ced00381aa4">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/html-tutorial/introduction/">Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/html-tutorial/quick-start/">Quick Start</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/html-tutorial/commands/">Commands</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-6a26f548831e6a8c26bfbbd9f6ec61e0" aria-expanded="false">
+          Help
+        </button>
+        <div class="collapse" id="section-6a26f548831e6a8c26bfbbd9f6ec61e0">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/help/how-to-update/">How to Update</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/help/troubleshooting/">Troubleshooting</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/help/faq/">FAQ</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+
+    </nav>
+  </aside>
+</div>
+
+
+    <div class="wrap container-fluid" role="document">
+      <div class="content">
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-4 col-xl-3 tutorials-sidebar d-none d-lg-block">
+			<nav class="tutorials-links" aria-label="Main navigation">
+				
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-0634984bc3d5c45694c3de6d8a009051" aria-expanded="false">
+          C Tutorial
+        </button>
+        <div class="collapse" id="section-0634984bc3d5c45694c3de6d8a009051">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/introduction-of-c-programming/">C Programming Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/variables-in-c-programming-language-/">C Variables</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/data-types-in-c-programming-language/">C Data Types</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/control-statements-and-loops/">C Control Structure and Loops</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/c-tutorial/operator-and-expression-in-c-programming/">C Operators and Expressions</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-e5084ee7ead9cf884415c5d9501f7f19" aria-expanded="true">
+          CPP Tutorial
+        </button>
+        <div class="collapse show" id="section-e5084ee7ead9cf884415c5d9501f7f19">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/introduction-of-cpp/">CPP Programming Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/variables-in-c-programming-language-/">CPP Variables</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded active" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/data-types-in-c-programming-language/">CPP Data Types</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/control-statements-and-loops/">CPP Control Structure and Loops</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/cpp-tutorial/operator-and-expression-in-c-programming/">CPP Operators and Expressions</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-4c4ad5fca2e7a3f74dbb1ced00381aa4" aria-expanded="false">
+          HTML
+        </button>
+        <div class="collapse" id="section-4c4ad5fca2e7a3f74dbb1ced00381aa4">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/html-tutorial/introduction/">Introduction</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/html-tutorial/quick-start/">Quick Start</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/html-tutorial/commands/">Commands</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-6a26f548831e6a8c26bfbbd9f6ec61e0" aria-expanded="false">
+          Help
+        </button>
+        <div class="collapse" id="section-6a26f548831e6a8c26bfbbd9f6ec61e0">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/help/how-to-update/">How to Update</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/help/troubleshooting/">Troubleshooting</a></li>
+              
+            
+              
+                
+                <li><a class="tutorials-link rounded" href="https://scorpionsrk7.github.io/public/tutorials/help/faq/">FAQ</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+
+			</nav>
+		</div>
+		<nav class="tutorials-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="d-xl-none">
+  <button class="btn btn-outline-primary btn-sm doks-toc-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#onThisPage" aria-controls="doks-tutorials-nav" aria-expanded="false" aria-label="Toggle On this page navigation">
+    <span>On this page</span>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </span>
+  </button>
+  <div class="collapse" id="onThisPage">
+    <div class="card card-body mt-3 py-1">
+      <div class="page-links">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-are-data-types">What are Data Types?</a>
+      <ul>
+        <li><a href="#basic-data-types">Basic Data Types</a></li>
+        <li><a href="#derived-data-types">Derived Data Types</a></li>
+        <li><a href="#enumeration-data-types">Enumeration Data Types</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-links d-none d-xl-block">
+  <h3>On this page</h3>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-are-data-types">What are Data Types?</a>
+      <ul>
+        <li><a href="#basic-data-types">Basic Data Types</a></li>
+        <li><a href="#derived-data-types">Derived Data Types</a></li>
+        <li><a href="#enumeration-data-types">Enumeration Data Types</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+  </div>
+
+		</nav>
+		<main class="tutorials-content col-lg-12 col-xl">
+		
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="/public/">Home</a></li>
+<li class="breadcrumb-item"><a href="/public/tutorials/">Tutorials</a></li>
+<li class="breadcrumb-item"><a href="/public/tutorials/cpp-tutorial/">CPP Tutorial</a></li>
+<li class="breadcrumb-item active" aria-current="page">CPP Data Types</li>
+					</ol>
+				</nav>
+			
+			<h1>CPP Data Types</h1>
+			<p class="lead">Data types and variables are essential concepts in programming languages, and C programming language is no exception. In this article, we will discuss data types and variables in C programming language with examples. </p>
+			<nav class="d-xl-none" aria-label="Quaternary navigation">
+				<div class="d-xl-none">
+  <button class="btn btn-outline-primary btn-sm doks-toc-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#onThisPage" aria-controls="doks-tutorials-nav" aria-expanded="false" aria-label="Toggle On this page navigation">
+    <span>On this page</span>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </span>
+  </button>
+  <div class="collapse" id="onThisPage">
+    <div class="card card-body mt-3 py-1">
+      <div class="page-links">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-are-data-types">What are Data Types?</a>
+      <ul>
+        <li><a href="#basic-data-types">Basic Data Types</a></li>
+        <li><a href="#derived-data-types">Derived Data Types</a></li>
+        <li><a href="#enumeration-data-types">Enumeration Data Types</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-links d-none d-xl-block">
+  <h3>On this page</h3>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-are-data-types">What are Data Types?</a>
+      <ul>
+        <li><a href="#basic-data-types">Basic Data Types</a></li>
+        <li><a href="#derived-data-types">Derived Data Types</a></li>
+        <li><a href="#enumeration-data-types">Enumeration Data Types</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+  </div>
+
+			</nav>
+			<h2 id="what-are-data-types">What are Data Types? <a href="#what-are-data-types" class="anchor" aria-hidden="true">#</a></h2>
+<p>Data types are a way to classify different types of data that a program can handle. In C programming, data types determine the amount of memory space that a variable takes up and the range of values that it can stores. C programming language supports several data types, including:</p>
+<ol>
+<li>Basic Data Types</li>
+<li>Derived Data Types</li>
+<li>Enumeration Data Types</li>
+</ol>
+<h3 id="basic-data-types">Basic Data Types <a href="#basic-data-types" class="anchor" aria-hidden="true">#</a></h3>
+<p>The basic data types are the most commonly used data types in C programming language. They include:</p>
+<ol>
+<li>int: This data type is used to represent integer values. The int data type takes up 2 or 4 bytes of memory space depending on the system architecture. The range of values that can be stored in an int variable is -32,768 to 32,767 for a 2-byte int and -2,147,483,648 to 2,147,483,647 for a 4-byte int.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="c1">// Example:
+</span><span class="c1"></span><span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</code></pre></div><ol start="2">
+<li>float: This data type is used to represent floating-point values. The float data type takes up 4 bytes of memory space and can store values with a precision of up to 7 decimal places.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="c1">// Example:
+</span><span class="c1"></span><span class="kt">float</span> <span class="n">a</span> <span class="o">=</span> <span class="mf">3.14</span><span class="p">;</span>
+</code></pre></div><ol start="3">
+<li>double: This data type is used to represent double-precision floating-point values. The double data type takes up 8 bytes of memory space and can store values with a precision of up to 15 decimal places.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="c1">// Example:
+</span><span class="c1"></span><span class="kt">double</span> <span class="n">b</span> <span class="o">=</span> <span class="mf">3.14159265359</span><span class="p">;</span>
+</code></pre></div><ol start="4">
+<li>char: This data type is used to represent character values. The char data type takes up 1 byte of memory space and can store a single character.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="c1">// Example:
+</span><span class="c1"></span><span class="kt">char</span> <span class="n">c</span> <span class="o">=</span> <span class="sc">&#39;A&#39;</span><span class="p">;</span>
+</code></pre></div><h3 id="derived-data-types">Derived Data Types <a href="#derived-data-types" class="anchor" aria-hidden="true">#</a></h3>
+<p>Derived data types are data types that are derived from basic data types. They include:</p>
+<ol>
+<li>
+<p>Array: This data type is used to represent a collection of elements of the same data type. Arrays take up contiguous memory space and are accessed using an index.</p>
+</li>
+<li>
+<p>Pointer: This data type is used to represent a memory address. Pointers are used to manipulate memory and to pass addresses to functions.</p>
+</li>
+<li>
+<p>Structure: This data type is used to represent a collection of related data items. Structures can contain data items of different data types.</p>
+</li>
+<li>
+<p>Union: This data type is similar to a structure, but it can only contain one data item at a time. Unions are used to save memory when a data type may have different representations.</p>
+</li>
+</ol>
+<h3 id="enumeration-data-types">Enumeration Data Types <a href="#enumeration-data-types" class="anchor" aria-hidden="true">#</a></h3>
+<p>Enumeration data types are used to create a list of named constants. They are defined using the enum keyword and take up 2 or 4 bytes of memory space depending on the system architecture.</p>
+<h2 id="conclusion">Conclusion <a href="#conclusion" class="anchor" aria-hidden="true">#</a></h2>
+<p>Data types are a fundamental concept in C programming language. By understanding the different data types in C programming, you can create programs that are efficient, reliable, and easy to maintain. Whether you are working with basic data types, derived data types, or enumeration data types, it is essential to choose the right data type for your program to achieve the desired results.</p>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				
+				
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="edit-page">
+  <a href="https://github.com/scorpionsrk7/scorpionsrk7.github.io/blob/main/content/en/tutorials/cpp-tutorial/data-types-in-c-programming-language.md">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2">
+      <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+    </svg>
+    Edit this page on GitHub
+  </a>
+</div>
+
+				</div>
+			<div class="tutorials-navigation d-flex justify-content-between">
+	
+	<a href="/public/tutorials/c-tutorial/data-types-in-c-programming-language/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					&larr; C Data Types
+				</div>
+			</div>
+		</a>
+	<a class="ms-auto" href="/public/tutorials/html-tutorial/introduction/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					Introduction &rarr;
+				</div>
+			</div>
+		</a>
+	</div>
+
+			
+		</main>
+	</div>
+
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8 order-last order-lg-first">
+        <ul class="list-inline">
+          <li class="list-inline-item">Powered by <a class="text-muted" href="https://www.netlify.com/">Netlify</a>, <a class="text-muted" href="https://gohugo.io/">Hugo</a>, and <a class="text-muted" href="https://getdoks.org/">Doks</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-8 order-first order-lg-last text-lg-end">
+        <ul class="list-inline">
+          </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/public/js/bootstrap.min.00712c311df07f29118225b8d0d8443b5ea3d4ee1f624561bf14aebcfcbffeb6fac209976ba772c987b862b316f5ba534cecac7ab2faf2d0a9e8b51442ca4fea.js" integrity="sha512-AHEsMR3wfykRgiW40NhEO16j1O4fYkVhvxSuvPy//rb6wgmXa6dyyYe4YrMW9bpTTOyserL68tCp6LUUQspP6g==" crossorigin="anonymous" defer></script>
+  <script src="/public/js/highlight.min.1ab6752598a83269370d08c48cfcf3b68463e111ee535310542d7da47c45af5a772a15677ad587a0794306843b6456c4d8dda87ade15935ce73b87707e4ffe56.js" integrity="sha512-GrZ1JZioMmk3DQjEjPzztoRj4RHuU1MQVC19pHxFr1p3KhVnetWHoHlDBoQ7ZFbE2N2oet4Vk1znO4dwfk/&#43;Vg==" crossorigin="anonymous" defer></script>
+  <script src="/public/main.min.4bddfd5c99b56f2faaf91e18348fe5bc87c29cab25153605761f5e5a754ee0d5a66e456fe3ce43c7a841032a8e61791af990d3c23d47caa80f54c545cf92e8d0.js" integrity="sha512-S939XJm1by&#43;q&#43;R4YNI/lvIfCnKslFTYFdh9eWnVO4NWmbkVv485Dx6hBAyqOYXka&#43;ZDTwj1HyqgPVMVFz5Lo0A==" crossorigin="anonymous" defer></script>
+  <script src="/public/js/mermaid.min.ae4896a2f2a63ae7631596e86b7be4ef5bf17352ed90f5a49c6ce444ac21508cd050907f65e86c12594b48b24ad0310da01fa4941cf6a24acabf1ab6b2a180bd.js" integrity="sha512-rkiWovKmOudjFZboa3vk71vxc1LtkPWknGzkRKwhUIzQUJB/ZehsEllLSLJK0DENoB&#43;klBz2okrKvxq2sqGAvQ==" crossorigin="anonymous" defer></script>
+  <script src="https://scorpionsrk7.github.io/public/js/index.js" integrity="" crossorigin="anonymous" defer></script>
+  
+    <div class="d-flex fixed-bottom pb-4 pb-lg-5 pe-4 pe-lg-5">
+      <a id="toTop" href="#" class="btn btn-outline-primary rounded-circle ms-auto p-2"><span class="visually-hidden">Top</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></a>
+    </div>
+    
+  </body>
+</html>

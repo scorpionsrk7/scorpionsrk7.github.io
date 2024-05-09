@@ -1,5 +1,5 @@
 ---
-title : "C Programming Introduction"
+title : "CPP Programming Introduction"
 description: "Start learning c programming language"
 lead: "C programming language is a popular and widely used programming language for system-level programming, embedded systems, and game development. In this article, we will provide an introduction to C programming language with examples."
 date: 2020-10-06T08:48:45+00:00

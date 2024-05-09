@@ -1,10 +1,4 @@
 [[main]]
-  name = "Tutorials"
-  weight = 10
-  identifier = "tutorials"
-  url = "/tutorials/prologue/introduction/"
-
-[[main]]
   name = "C Tutorial"
   weight = 10
   identifier = "c-tutorial"
@@ -14,22 +8,9 @@
 [[main]]
   name = "C++ Tutorial"
   weight = 10
-  identifier = "c++-tutorial"
-  url = "/tutorials/c++-tutorial/introduction-of-c++/"
+  identifier = "cpp-tutorial"
+  url = "/tutorials/cpp-tutorial/introduction-of-cpp/"
   parent = "tutorials"
-
-[[main]]
-  name = "Get Started"
-  weight = 30
-  identifier = "get-started"
-  url = "/tutorials/prologue/introduction/"
-
-[[main]]
-  name = "Quick Start"
-  weight = 40
-  identifier = "quick-start"
-  url = "/tutorials/prologue/quick-start/"
-  parent = "get-started"
 
 [[main]]
   name = "Blog"

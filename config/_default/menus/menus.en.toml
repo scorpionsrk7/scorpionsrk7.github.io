@@ -2,19 +2,19 @@
   name = "C Tutorial"
   weight = 10
   identifier = "c-tutorial"
-  url = "/tutorials/c-tutorial/introduction-of-c-programming/"
+  url = "./tutorials/c-tutorial/introduction-of-c-programming/"
   parent = "tutorials"
 
 [[main]]
   name = "C++ Tutorial"
   weight = 10
   identifier = "cpp-tutorial"
-  url = "/tutorials/cpp-tutorial/introduction-of-cpp/"
+  url = "./tutorials/cpp-tutorial/introduction-of-cpp/"
   parent = "tutorials"
 
 [[main]]
   name = "Blog"
-  url = "/blog/"
+  url = "./blog/"
   weight = 40
 
 [[social]]
@@ -32,5 +32,5 @@
 
 # [[footer]]
 #   name = "Privacy"
-#   url = "/privacy-policy/"
+#   url = "./privacy-policy/"
 #   weight = 10

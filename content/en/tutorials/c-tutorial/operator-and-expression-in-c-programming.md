@@ -9,7 +9,7 @@ images: []
 menu:
   tutorials:
     parent: "c-tutorial"
-weight: 100
+weight: 3
 toc: true
 mermaid: true
 ---

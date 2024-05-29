@@ -9,11 +9,10 @@ images: []
 menu:
   tutorials:
     parent: "c-tutorial"
-weight: 100
+weight: 5
 toc: true
 mermaid: true
 ---
-
 
 ## Get started
 There are three main control structures in C programming:

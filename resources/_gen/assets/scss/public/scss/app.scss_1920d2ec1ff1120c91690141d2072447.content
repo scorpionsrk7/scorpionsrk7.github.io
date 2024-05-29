@@ -12737,7 +12737,7 @@ button#doks-versions {
       margin: 0.25rem 0.5rem 0 0.25rem; } }
 .offcanvas .nav-link, .offcanvas .banner .nav a, .banner .nav .offcanvas a {
   color: #1d2d35;
-  color: #fff; }
+  color: #ccc; }
 
 .doks-subnavbar {
   background-color: rgba(255, 255, 255, 0.95);
@@ -12753,10 +12753,12 @@ button#doks-versions {
 .offcanvas .nav-link:focus,
 .offcanvas .banner .nav a:focus,
 .banner .nav .offcanvas a:focus {
-  color: #5d2f86; }
+  color: #5d2f86;
+  color: #fff; }
 
 .offcanvas .nav-link.active, .offcanvas .banner .nav a.active, .banner .nav .offcanvas a.active {
-  color: #5d2f86; }
+  color: #5d2f86;
+  color: #fff; }
 
 /*
 .navbar {

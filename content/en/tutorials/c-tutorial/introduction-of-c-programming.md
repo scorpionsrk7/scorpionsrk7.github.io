@@ -9,13 +9,13 @@ images: []
 menu:
   tutorials:
     parent: "c-tutorial"
-weight: 10
+weight: 1
 toc: true
 mermaid: true
 ---
 
 ## Hello, World! Program in C
-The "Hello, World!" program is a simple program that prints the text "Hello, World!" to the screen. Here is an example of how to write a "Hello, World!" program in C programming language
+The "Hello, World!" program is a simple program that prints the text "Hello, World!" to the screen. Here is an example of how to write a "Hello, World!" program in C programming language.
 
 
 ```bash

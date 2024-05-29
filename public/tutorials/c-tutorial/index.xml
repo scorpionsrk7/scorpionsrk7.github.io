@@ -12,8 +12,30 @@
       <pubDate>Tue, 06 Oct 2020 08:48:45 +0000</pubDate>
       
       <guid>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/introduction-of-c-programming/</guid>
-      <description>Hello, World! Program in C # The &amp;ldquo;Hello, World!&amp;rdquo; program is a simple program that prints the text &amp;ldquo;Hello, World!&amp;rdquo; to the screen. Here is an example of how to write a &amp;ldquo;Hello, World!&amp;rdquo; program in C programming language
+      <description>Hello, World! Program in C # The &amp;ldquo;Hello, World!&amp;rdquo; program is a simple program that prints the text &amp;ldquo;Hello, World!&amp;rdquo; to the screen. Here is an example of how to write a &amp;ldquo;Hello, World!&amp;rdquo; program in C programming language.
 #include &amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;Hello, World!\n&amp;#34;); return 0; } In this example, we have used the printf function to print the text &amp;ldquo;Hello, World!&amp;rdquo; to the screen. The \n character is used to insert a new line after the text.</description>
+    </item>
+    
+    <item>
+      <title>C Data Types</title>
+      <link>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/data-types-in-c-programming-language/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
+      
+      <guid>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/data-types-in-c-programming-language/</guid>
+      <description>What are Data Types? # Data types are a way to classify different types of data that a program can handle. In C programming, data types determine the amount of memory space that a variable takes up and the range of values that it can stores. C programming language supports several data types, including:
+ Basic Data Types Derived Data Types Enumeration Data Types  Basic Data Types # The basic data types are the most commonly used data types in C programming language.</description>
+    </item>
+    
+    <item>
+      <title>C Operators and Expressions</title>
+      <link>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/operator-and-expression-in-c-programming/</link>
+      <pubDate>Tue, 06 Oct 2020 08:48:45 +0000</pubDate>
+      
+      <guid>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/operator-and-expression-in-c-programming/</guid>
+      <description>Get started # Operators are used to perform arithmetic, logical, and relational operations on variables and values. There are several types of operators in C programming language, including
+Arithmetic Operators # Arithmetic operators are used to perform mathematical operations such as addition, subtraction, multiplication, and division.
+Here is a list of arithmetic operators in C programming language
++ (addition) - (subtraction) * (multiplication) / (division) % (modulus) Here&amp;rsquo;s an example of how to use arithmetic operators in C programming</description>
     </item>
     
     <item>
@@ -28,16 +50,6 @@ data_type variable_name; Here, data_type specifies the type of the variable, suc
     </item>
     
     <item>
-      <title>C Data Types</title>
-      <link>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/data-types-in-c-programming-language/</link>
-      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
-      
-      <guid>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/data-types-in-c-programming-language/</guid>
-      <description>What are Data Types? # Data types are a way to classify different types of data that a program can handle. In C programming, data types determine the amount of memory space that a variable takes up and the range of values that it can stores. C programming language supports several data types, including:
- Basic Data Types Derived Data Types Enumeration Data Types  Basic Data Types # The basic data types are the most commonly used data types in C programming language.</description>
-    </item>
-    
-    <item>
       <title>C Control Structure and Loops</title>
       <link>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/control-statements-and-loops/</link>
       <pubDate>Tue, 06 Oct 2020 08:48:45 +0000</pubDate>
@@ -46,18 +58,6 @@ data_type variable_name; Here, data_type specifies the type of the variable, suc
       <description>Get started # There are three main control structures in C programming:
  Selection statements (if-else statements) Iteration statements (for loops, while loops, do-while loops) Jump statements (break, continue, goto)  Selection statements (if-else statements) # Selection statements allow a program to choose between two or more paths of execution based on the value of a condition. The basic syntax of an if-else statement is as follows:
 if statement # This statement is used to check a condition, if the condition is true, perforn the operatioon otherwise move to next part of code.</description>
-    </item>
-    
-    <item>
-      <title>C Operators and Expressions</title>
-      <link>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/operator-and-expression-in-c-programming/</link>
-      <pubDate>Tue, 06 Oct 2020 08:48:45 +0000</pubDate>
-      
-      <guid>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/operator-and-expression-in-c-programming/</guid>
-      <description>Get started # Operators are used to perform arithmetic, logical, and relational operations on variables and values. There are several types of operators in C programming language, including
-Arithmetic Operators # Arithmetic operators are used to perform mathematical operations such as addition, subtraction, multiplication, and division.
-Here is a list of arithmetic operators in C programming language
-+ (addition) - (subtraction) * (multiplication) / (division) % (modulus) Here&amp;rsquo;s an example of how to use arithmetic operators in C programming</description>
     </item>
     
   </channel>

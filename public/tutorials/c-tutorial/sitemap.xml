@@ -9,13 +9,6 @@
     </url>
     
     <url>
-      <loc>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/variables-in-c-programming-language-/</loc>
-      <lastmod>2020-10-06T08:48:45+00:00</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.5</priority>
-    </url>
-    
-    <url>
       <loc>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/data-types-in-c-programming-language/</loc>
       <lastmod>2020-10-06T08:48:57+00:00</lastmod>
       <changefreq>weekly</changefreq>
@@ -23,14 +16,21 @@
     </url>
     
     <url>
-      <loc>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/control-statements-and-loops/</loc>
+      <loc>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/operator-and-expression-in-c-programming/</loc>
       <lastmod>2020-10-06T08:48:45+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
     
     <url>
-      <loc>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/operator-and-expression-in-c-programming/</loc>
+      <loc>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/variables-in-c-programming-language-/</loc>
+      <lastmod>2020-10-06T08:48:45+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    
+    <url>
+      <loc>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/control-statements-and-loops/</loc>
       <lastmod>2020-10-06T08:48:45+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>

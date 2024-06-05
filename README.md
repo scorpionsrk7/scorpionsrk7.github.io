@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <p><img style="width: 100px; border-radius: 100%;" src="https://scorpionsrk7.github.io/me/author/sitaram/avatar_hu83186c2c3d22d3b0275d0ca97fb518c5_61392_150x150_fill_q80_lanczos_center.jpg" 
 /></p>

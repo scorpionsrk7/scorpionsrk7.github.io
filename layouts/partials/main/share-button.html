@@ -1,0 +1,44 @@
+<style>
+  .social-share-buttons {
+      display: flex;
+      gap: 10px;
+  }
+  .social-share-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #f0f0f0;
+      text-decoration: none;
+  }
+  .social-share-button svg {
+      width: 24px;
+      height: 24px;
+      fill: #555;
+  }
+  .social-share-button.facebook { background-color: #3b5998; }
+  .social-share-button.twitter { background-color: #1da1f2; }
+  .social-share-button.linkedin { background-color: #0077b5; }
+  .social-share-button.instagram { background-color: #e1306c; }
+  .social-share-button svg { fill: #fff; }
+</style>
+
+<div class="social-share-buttons">
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .URL }}" class="social-share-button facebook" title="Share on Facebook">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .732.593 1.324 1.325 1.324h11.494v-9.294h-3.125v-3.622h3.125v-2.67c0-3.1 1.892-4.788 4.658-4.788 1.325 0 2.464.098 2.797.142v3.24h-1.92c-1.505 0-1.796.716-1.796 1.767v2.308h3.59l-.467 3.622h-3.123v9.294h6.116c.73 0 1.324-.592 1.324-1.324v-21.351c0-.732-.594-1.325-1.325-1.325z"/>
+      </svg>
+  </a>
+  <a href="#" class="social-share-button twitter" title="Share on Twitter">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.723-.951.565-2.005.978-3.127 1.2-.897-.957-2.178-1.555-3.594-1.555-2.717 0-4.917 2.201-4.917 4.917 0 .385.043.76.127 1.124-4.083-.205-7.702-2.161-10.125-5.135-.423.726-.666 1.57-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.247-2.228-.616v.062c0 2.388 1.698 4.384 3.946 4.836-.413.112-.849.172-1.297.172-.317 0-.626-.031-.928-.088.626 1.956 2.444 3.379 4.6 3.418-1.685 1.32-3.809 2.108-6.115 2.108-.398 0-.79-.023-1.175-.068 2.179 1.396 4.768 2.209 7.548 2.209 9.057 0 14.01-7.506 14.01-14.01 0-.214-.004-.428-.013-.64.961-.695 1.797-1.562 2.457-2.549z"/>
+      </svg>
+  </a>
+  <a href="#" class="social-share-button linkedin" title="Share on LinkedIn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M22.23 0h-20.46c-.97 0-1.77.8-1.77 1.77v20.46c0 .97.8 1.77 1.77 1.77h20.46c.97 0 1.77-.8 1.77-1.77v-20.46c0-.97-.8-1.77-1.77-1.77zm-13.538 20.452h-3.687v-11.697h3.687v11.697zm-1.845-13.365c-1.18 0-2.137-.956-2.137-2.137 0-1.18.956-2.137 2.137-2.137 1.181 0 2.137.956 2.137 2.137 0 1.181-.956 2.137-2.137 2.137zm14.478 13.365h-3.688v-5.946c0-1.417-.028-3.244-1.974-3.244-1.973 0-2.275 1.54-2.275 3.135v6.055h-3.688v-11.697h3.539v1.598h.051c.492-.929 1.696-1.907 3.492-1.907 3.733 0 4.418 2.457 4.418 5.653v6.353z"/>
+      </svg>
+  </a>
+</div>

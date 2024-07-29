@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   tutorials:
-    parent: "c-tutorial"
+    parent: "cpp-tutorial"
 weight: 100
 toc: true
 mermaid: true

@@ -3,14 +3,21 @@
   weight = 10
   identifier = "c-tutorial"
   url = "./tutorials/c-tutorial/introduction-of-c-programming/"
-  parent = "tutorials"
+  parent = "Tutorials"
 
 [[main]]
   name = "C++ Tutorial"
   weight = 10
   identifier = "cpp-tutorial"
   url = "./tutorials/cpp-tutorial/introduction-of-cpp/"
-  parent = "tutorials"
+  parent = "Tutorials"
+
+[[main]]
+  name = "HTML Tutorial"
+  weight = 10
+  identifier = "html-tutorial"
+  url = "./tutorials/html-tutorial/introduction/"
+  parent = "Tutorials"
 
 [[main]]
   name = "Blog"

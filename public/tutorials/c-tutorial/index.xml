@@ -12,7 +12,8 @@
       <pubDate>Tue, 06 Oct 2020 08:48:45 +0000</pubDate>
       
       <guid>https://scorpionsrk7.github.io/public/tutorials/c-tutorial/introduction-of-c-programming/</guid>
-      <description>Hello, World! Program in C # The &amp;ldquo;Hello, World!&amp;rdquo; program is a simple program that prints the text &amp;ldquo;Hello, World!&amp;rdquo; to the screen. Here is an example of how to write a &amp;ldquo;Hello, World!&amp;rdquo; program in C programming language.
+      <description>white kitten
+Hello, World! Program in C # The &amp;ldquo;Hello, World!&amp;rdquo; program is a simple program that prints the text &amp;ldquo;Hello, World!&amp;rdquo; to the screen. Here is an example of how to write a &amp;ldquo;Hello, World!&amp;rdquo; program in C programming language.
 #include &amp;lt;stdio.h&amp;gt; int main() { printf(&amp;#34;Hello, World!\n&amp;#34;); return 0; } In this example, we have used the printf function to print the text &amp;ldquo;Hello, World!&amp;rdquo; to the screen. The \n character is used to insert a new line after the text.</description>
     </item>
     

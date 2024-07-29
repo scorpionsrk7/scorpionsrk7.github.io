@@ -23,6 +23,9 @@
 						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
 					</ol>
 				</nav>
+				<div class="share-button">
+					{{ partial "main/share-button" . -}}
+				</div>
 			{{ end }}
 			<h1>{{ .Title }}</h1>
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>

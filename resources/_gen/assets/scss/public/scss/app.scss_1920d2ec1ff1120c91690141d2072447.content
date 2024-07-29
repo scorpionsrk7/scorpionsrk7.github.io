@@ -12155,7 +12155,8 @@ $border-dark: darken($body-bg-dark, 2.5%);
   color: #5d2f86; }
 
 body .toggle-dark {
-  display: block; }
+  display: block;
+  height: 25px; }
 
 body .toggle-light {
   display: none; }

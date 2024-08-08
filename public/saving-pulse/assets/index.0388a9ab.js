@@ -2059,7 +2059,7 @@ The error may be correlated with this previous error:
   .scheme-container {
     display: flex;
     -webkit-box-align: center;
-    align-items: center;
+    align-items: start;
     width: 100%;
     border-bottom: 1px solid rgb(224, 224, 224);
     padding: 1rem;
@@ -2076,7 +2076,8 @@ The error may be correlated with this previous error:
 
   .info {
     flex-grow: 1;
-    margin-left: 1rem;
+    margin: 0 1rem;
+    padding-top: 1rem;
 
     .name {
       font-size: 1.2rem;
@@ -2092,7 +2093,7 @@ The error may be correlated with this previous error:
       font-size: 1.2rem;
       color: #757575;
       margin-top: 4px;
-      text-transform: lowercase;
+      // text-transform: lowercase;
     }
   }
 
@@ -2100,8 +2101,11 @@ The error may be correlated with this previous error:
     font-size: 1.2rem;
     font-weight: 600;
     color: #757575;
+    padding-top: 1rem;
+
+    .popular { display: none; }
   }
-`,T1=({scheme:e,activeFilter:t})=>{const r=n=>n.toLowerCase().replace(/\b\w/g,i=>i.toUpperCase());return u(r4,{children:b("div",{className:"scheme-container",children:[u("div",{className:"image",children:u("img",{src:`./images/amc-logo/${e.amc_logo}`,alt:""})}),b("div",{className:"info",children:[u("div",{className:"name",children:r(e.Scheme_Name)}),b("div",{className:"description",children:[e.Scheme_Type," - ",e.Scheme_Type," - ",e.Face_Value]})]}),u("div",{className:"return",children:u("div",{className:"1"})})]})})},n4=I.div`
+`,T1=({scheme:e,activeFilter:t})=>{const r=n=>n.toLowerCase().replace(/\b\w/g,i=>i.toUpperCase());return u(r4,{children:b("div",{className:"scheme-container",children:[u("div",{className:"image",children:u("img",{src:`./images/amc-logo/${e.amc_logo}`,alt:""})}),b("div",{className:"info",children:[u("div",{className:"name",children:r(e.Scheme_Name)}),b("div",{className:"description",children:["Type: ",r(e.Scheme_Type)," | Nav: ",e.Last_Nav]})]}),u("div",{className:"return",children:b("div",{className:"1",children:[u("span",{className:"normal",children:"10%"}),b("span",{className:"popular",children:["3Y ",u("br",{})," 15%"]})]})})]})})},n4=I.div`
   display: block;
   width: 100%;
   padding: 0 5px;
@@ -3313,7 +3317,7 @@ The error may be correlated with this previous error:
 
     h2 { font-size: 1.8rem; }
   }
-`,Nf=({schemes:e,loading:t})=>{const[r,n]=k.exports.useState(0),[i,o]=k.exports.useState(!1);return t===!1&&e.length===0&&o(!0),b(E_,{children:[b("div",{className:"schemes-header",children:[u("h2",{children:"Mutual Funds"}),u(t4,{activeFilter:r,onFilterChange:n})]}),t?(()=>u(qe,{children:[0,1,2,3,4,5].map(l=>b(tn,{sx:{display:"flex",alignItems:"justify-center",marginBottom:"30px"},children:[u(tn,{sx:{width:60,height:60,marginRight:2},children:u(er,{variant:"rounded",width:60,height:60})}),b(tn,{sx:{pt:.5},width:"100%",children:[u(er,{}),u(er,{width:"60%"})]})]},l))}))():e.map((l,s)=>u(me,{className:"link",to:"",title:l.name,children:u(T1,{scheme:l})},s))]})},$_=async(e,t={})=>{const{method:r="GET",headers:n={},body:i}=t;try{const o=await fetch(O_(e),{method:r,headers:{"Content-Type":"application/json",...n},body:r==="GET"?void 0:JSON.stringify(i)});if(!o.ok){const a=await o.json();throw new Error(a.message||"Something went wrong")}return await o.json()}catch(o){throw console.error("API Request Error:",o.message),new Error(o.message||"Something went wrong")}},P_=()=>"http://savingpulse.com",O_=e=>{const r={schemes:"/schemes","sip-with-100":"/schemes/sip-with-100","high-return":"/schemes/high-return","tax-saving":"/schemes/tax-saving","large-cap":"/schemes/large-cap","mid-cap":"/schemes/mid-cap","small-cap":"/schemes/small-cap"}[e]||"";return`${P_()}${r}?ajax=true`},N_=async e=>await $_(e),Tf=(e="")=>N_(e),T_=I.div`
+`,Nf=({schemes:e,loading:t})=>{const[r,n]=k.exports.useState(0),[i,o]=k.exports.useState(!1);return t===!1&&e.length===0&&o(!0),b(E_,{children:[b("div",{className:"schemes-header",children:[u("h2",{children:"Mutual Funds"}),u(t4,{activeFilter:r,onFilterChange:n})]}),t?(()=>u(qe,{children:[0,1,2,3,4,5].map(l=>b(tn,{sx:{display:"flex",alignItems:"justify-center",marginBottom:"30px"},children:[u(tn,{sx:{width:60,height:60,marginRight:2},children:u(er,{variant:"rounded",width:60,height:60})}),b(tn,{sx:{pt:.5},width:"100%",children:[u(er,{}),u(er,{width:"60%"})]})]},l))}))():e.map((l,s)=>u(me,{className:"link",to:"",title:l.name,children:u(T1,{scheme:l})},s))]})},$_=async(e,t={})=>{const{method:r="GET",headers:n={},body:i}=t;try{const o=await fetch(O_(e),{method:r,headers:{"Content-Type":"application/json",...n},body:r==="GET"?void 0:JSON.stringify(i)});if(!o.ok){const a=await o.json();throw new Error(a.message||"Something went wrong")}return await o.json()}catch(o){throw console.error("API Request Error:",o.message),new Error(o.message||"Something went wrong")}},P_=()=>{const{protocol:e,hostname:t}=window.location;return t==="localhost"||t==="127.0.0.1"?`${e}//${t}/star-mf`:"http://savingpulse.com"},O_=e=>{const r={schemes:"/schemes","sip-with-100":"/schemes/sip-with-100","high-return":"/schemes/high-return","tax-saving":"/schemes/tax-saving","large-cap":"/schemes/large-cap","mid-cap":"/schemes/mid-cap","small-cap":"/schemes/small-cap"}[e]||"";return`${P_()}${r}?ajax=true`},N_=async e=>await $_(e),Tf=(e="")=>N_(e),T_=I.div`
   border-bottom: 1px solid #ebe7e7;
   padding-bottom: 10px;
   overflow-y: hidden;
@@ -3357,12 +3361,24 @@ The error may be correlated with this previous error:
       gap: 0.5rem;
       border: 1px solid rgb(224, 224, 224);
       padding: 1rem;
+      position: relative;
 
       .info {
         margin-left: 0;
+        padding: 0;
         .name {
           -webkit-line-clamp: 1;
         }
+      }
+      .return {
+        position: absolute;
+        right: 0;
+        margin-right: 1rem;
+        div {
+          padding-top: 0;
+        }
+        .normal { display: none; }
+        .popular { display: initial; }
       }
     }
   }
@@ -3407,7 +3423,7 @@ The error may be correlated with this previous error:
       }
     }
   }
-`,R_=()=>{const{collections:e}=et(c=>c.amcCollection);k.exports.useState(0);const[t,r]=k.exports.useState(!1),[n,i]=k.exports.useState([]),[o,a]=k.exports.useState(void 0),[l,s]=k.exports.useState(!0);return k.exports.useEffect(()=>{(async()=>{try{const d=await Tf("schemes");i(d)}catch(d){a(d)}finally{s(!1)}})()},[]),u(T_,{children:b("div",{className:"container",children:[b("div",{className:"popular-fund-section division",children:[b("div",{className:"popular-funds",children:[u("h2",{children:"Popular Funds"}),u(me,{className:"link",to:"/schemes",title:"All Mutual Funds",children:"All Mutual Funds"})]}),u("div",{className:"popular-items",children:u(C_,{schemes:n,loading:l})})]}),b("div",{className:"collection-section division",children:[u("h2",{children:"Collections"}),u("div",{className:"collection-items",children:u(__,{collections:e,loading:t})})]}),u("div",{className:"all-mf-section division",children:u(Nf,{schemes:n,loading:l})})]})})},dr=(e,t)=>{var i;let r=Math.abs(e);r=(i=r==null?void 0:r.toFixed(0))==null?void 0:i.replace(/\B(?=(\d{3})+(?!\d))/g,",");let n=r.split(",");if(n.length>1){let o=n[n.length-1];r=n.slice(0,n.length-1).join("").replace(/\B(?=(\d{2})+(?!\d))/g,",")+","+o}return t==="simple"?{paisa:`\u20B9${r}`}:{paisa:e>0?`+ \u20B9${r}`:`- \u20B9${r}`,color:e>0?"#0add8c":"#f00"}},M_=I.div`
+`,R_=()=>{const{collections:e}=et(c=>c.amcCollection);k.exports.useState(0);const[t,r]=k.exports.useState(!1),[n,i]=k.exports.useState([]),[o,a]=k.exports.useState(void 0),[l,s]=k.exports.useState(!0);return k.exports.useEffect(()=>{(async()=>{try{const d=await Tf("schemes");i(d)}catch(d){a(d)}finally{s(!1)}})()},[]),u(T_,{children:b("div",{className:"container",children:[b("div",{className:"popular-fund-section division",children:[b("div",{className:"popular-funds",children:[u("h2",{children:"Popular Funds"}),u(me,{className:"link",to:"/all-mutual-funds",title:"All Mutual Funds",children:"All Mutual Funds"})]}),u("div",{className:"popular-items",children:u(C_,{schemes:n,loading:l})})]}),b("div",{className:"collection-section division",children:[u("h2",{children:"Collections"}),u("div",{className:"collection-items",children:u(__,{collections:e,loading:t})})]}),u("div",{className:"all-mf-section division",children:u(Nf,{schemes:n,loading:l})})]})})},dr=(e,t)=>{var i;let r=Math.abs(e);r=(i=r==null?void 0:r.toFixed(0))==null?void 0:i.replace(/\B(?=(\d{3})+(?!\d))/g,",");let n=r.split(",");if(n.length>1){let o=n[n.length-1];r=n.slice(0,n.length-1).join("").replace(/\B(?=(\d{2})+(?!\d))/g,",")+","+o}return t==="simple"?{paisa:`\u20B9${r}`}:{paisa:e>0?`+ \u20B9${r}`:`- \u20B9${r}`,color:e>0?"#0add8c":"#f00"}},M_=I.div`
   .division {
     margin-bottom: 30px;
     h2 {
@@ -3928,7 +3944,7 @@ The error may be correlated with this previous error:
     z-index: 1;
     padding: 20px 30px;
   }
-`,mE=()=>{k.exports.useState(0);const[e,t]=k.exports.useState(!0),[r,n]=k.exports.useState([]);return k.exports.useEffect(()=>{(async()=>{try{const o=await Tf();n(o)}catch(o){setError(o)}finally{t(!1)}})()},[]),u(hE,{children:u("div",{className:"container division",children:u(Nf,{schemes:r,loading:e})})})},gE=I.div`
+`,mE=()=>{k.exports.useState(0);const[e,t]=k.exports.useState(!0),[r,n]=k.exports.useState([]);return k.exports.useEffect(()=>{(async()=>{try{const o=await Tf("schemes");n(o)}catch(o){setError(o)}finally{t(!1)}})()},[]),u(hE,{children:u("div",{className:"container division",children:u(Nf,{schemes:r,loading:e})})})},gE=I.div`
   padding: 7.5rem 0.5rem;
   .all-mf-section {
   }

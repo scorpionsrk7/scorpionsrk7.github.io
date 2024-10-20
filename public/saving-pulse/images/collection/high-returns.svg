@@ -1,9 +1,10 @@
 <svg width="49" height="46" viewBox="0 0 49 46" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .dynamic-color { fill: var(--main-color, #9147ff); }
-    .dynamic-color-secondary { fill: var(--secondary-color, #a071e5); }
+    .dynamic-color {fill: var(--main-color, #9147ff);}
+    .dynamic-color-secondary {fill: var(--secondary-color, #9147ff);}
     .dynamic-color-white { fill: var(--white-color, white); }
   </style>
+
 <g clip-path="url(#clip0_722_29448)">
 <path d="M34.4299 13.3696C34.4299 15.6399 37.5609 17.4819 41.4195 17.4819C45.2781 17.4819 48.4091 15.6399 48.4091 13.3696V16.3551C48.4091 18.6254 45.2781 20.4674 41.4195 20.4674C37.5609 20.4674 34.4299 18.6254 34.4299 16.3551V13.3696Z" class="dynamic-color-secondary"/>
 <path d="M41.4271 20.1101C37.5685 20.1101 34.4375 18.2681 34.4375 15.9937V16.3554C34.4375 18.6257 37.5685 20.4677 41.4271 20.4677C45.2857 20.4677 48.4167 18.6257 48.4167 16.3554V15.9854C48.4084 18.2681 45.2774 20.1101 41.4271 20.1101Z" class="dynamic-color-secondary"/>

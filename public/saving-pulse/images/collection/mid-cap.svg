@@ -1,7 +1,7 @@
 <svg width="35" height="41" viewBox="0 0 35 41" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .dynamic-color { fill: var(--main-color, #9147ff); }
-    .dynamic-color-secondary { fill: var(--secondary-color, #a071e5); }
+    .dynamic-color { fill: var(--main-color, #5a49e4); }
+    .dynamic-color-secondary { fill: var(--secondary-color, #5a49e4e6); }
     .dynamic-color-white { fill: var(--white-color, white); }
   </style>
 <path d="M10.6413 16.6492L27.7834 6.95614L17.1741 0.833496L0.015625 10.6045L10.6413 16.707V16.6492Z" fill="white"/>

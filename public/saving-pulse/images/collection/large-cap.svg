@@ -1,7 +1,7 @@
 <svg width="29" height="49" viewBox="0 0 29 49" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .dynamic-color { fill: var(--main-color, #9147ff); }
-    .dynamic-color-secondary { fill: var(--secondary-color, #a071e5); }
+    .dynamic-color { fill: var(--main-color, #5a49e4); }
+    .dynamic-color-secondary { fill: var(--secondary-color, #5a49e4e6); }
     .dynamic-color-white { fill: var(--white-color, white); }
   </style>
 <g clip-path="url(#clip0_7315_44864)">
